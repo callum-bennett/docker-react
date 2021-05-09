@@ -2,7 +2,6 @@ sudo: required
 language: generic
 services:
   - docker
-env:
 
 before_install:
   - docker build -t callumbennett/docker-react -f Dockerfile.dev .
